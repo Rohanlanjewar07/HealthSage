@@ -111,3 +111,33 @@ This project is licensed under the MIT License.
 - **Why**: It allows the use of modern CSS features and optimizations like autoprefixing, nested rules, etc.
 - **Integration**: PostCSS is configured in `postcss.config.mjs` to process the CSS files in the project.
 
+### **Deployment with Vercel**
+
+**Vercel**:
+- **What**: Vercel is a cloud platform for static sites and serverless functions, built to integrate with front-end frameworks like Next.js. It provides an easy and efficient way to deploy web applications with minimal configuration.
+- **Why**: Vercel offers seamless integration with Next.js, including automatic deployments, preview environments, and support for server-side rendering. It allows you to deploy your application directly from your Git repository, ensuring that your latest changes are live in a matter of seconds.
+- **Integration**: The project is deployed on Vercel, leveraging its capabilities for smooth and efficient deployment, including features like:
+  - **Automatic Deployments**: Each push to the main branch triggers a new deployment.
+  - **Custom Domains**: You can connect a custom domain to your Vercel project.
+  - **Environment Variables**: Vercel allows you to set environment variables for different environments (development, preview, production).
+  - **Serverless Functions**: Any API routes in the Next.js project are automatically deployed as serverless functions on Vercel.
+
+#### Deployment Process:
+
+1. **Connect Repository**: 
+   - Log in to [Vercel](https://vercel.com/) and connect your GitHub/GitLab/Bitbucket repository containing the `MedRecom` project.
+   
+2. **Configure Settings**: 
+   - You may need to configure some settings, such as environment variables, build commands, and output directory (for Next.js, this is usually automatic).
+
+3. **Automatic Deployments**: 
+   - Each time you push code to the repository, Vercel automatically builds and deploys the latest version of your application.
+   - You can also create preview deployments for each pull request, allowing you to test changes before merging them into the main branch.
+
+4. **Custom Domain (Optional)**:
+   - You can add a custom domain to your project via the Vercel dashboard under the "Domains" section.
+
+5. **Environment Variables**:
+   - In Vercel, go to your project settings and under "Environment Variables", add any necessary variables for different environments (e.g., API keys).
+
+
