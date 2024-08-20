@@ -70,3 +70,44 @@ The platform will diagnose and provide a list of recommended medicines along wit
 
 ## License
 This project is licensed under the MIT License.
+
+
+## For Group Members
+
+### **Technology Overview**
+
+**Next.js**:
+- **What**: Next.js is a React framework that enables server-side rendering and static site generation. It’s a popular choice for creating optimized, fast web applications.
+- **Why**: It provides a robust foundation for building full-stack React applications with features like routing, API routes, and more.
+- **Integration**: This project uses Next.js as the core framework, handling both the front-end rendering and the back-end API logic.
+
+**React**:
+- **What**: React is a JavaScript library for building user interfaces, particularly single-page applications where you need a fast, interactive user experience.
+- **Why**: React’s component-based architecture allows for reusable UI components, making it easier to maintain and scale the application.
+- **Integration**: Used for building the user interface and managing state across components.
+
+**Tailwind CSS**:
+- **What**: Tailwind is a utility-first CSS framework that allows for rapid UI development.
+- **Why**: It provides a set of predefined classes that can be composed to build custom designs directly in your HTML, improving both speed and flexibility.
+- **Integration**: Tailwind is configured via `tailwind.config.ts` and used across the project to style components.
+
+**TypeScript**:
+- **What**: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+- **Why**: It adds static type definitions, which helps catch errors early in the development process and improves code quality.
+- **Integration**: TypeScript is used throughout the project, as indicated by the presence of `.ts` and `.tsx` files, enhancing the reliability and maintainability of the code.
+
+**Clerk**:
+- **What**: Clerk is an authentication solution for web applications.
+- **Why**: It simplifies user management, including login, signup, and session management, which are crucial for any personalized platform.
+- **Integration**: The package `@clerk/nextjs` is integrated into the project for handling user authentication.
+
+**ESLint**:
+- **What**: ESLint is a tool for identifying and fixing problems in JavaScript/TypeScript code.
+- **Why**: Ensures that the codebase adheres to consistent coding standards, preventing potential bugs and improving readability.
+- **Integration**: Configured to lint the codebase, ensuring code quality and consistency.
+
+**PostCSS**:
+- **What**: PostCSS is a tool for transforming CSS with JavaScript plugins.
+- **Why**: It allows the use of modern CSS features and optimizations like autoprefixing, nested rules, etc.
+- **Integration**: PostCSS is configured in `postcss.config.mjs` to process the CSS files in the project.
+
