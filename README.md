@@ -66,7 +66,7 @@ To see the platform in action, navigate to the homepage and input some sample da
 The platform will diagnose and provide a list of recommended medicines along with tracking options.
 
 ## Contributors
-- [Your Name](https://github.com/yourusername)
+- [Rohan Lanjewar](https://github.com/Rohanlanjewar07)
 
 ## License
 This project is licensed under the MIT License.
