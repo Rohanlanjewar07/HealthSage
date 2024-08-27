@@ -276,7 +276,7 @@ const Hero = () => {
                   href="mailto:info@example.com"
                   className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl"
                 >
-                  info@example.com
+                  mail@gmail.com
                 </a>
               </p>
             </div>
