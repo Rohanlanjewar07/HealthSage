@@ -1,7 +1,7 @@
-# MedRecom
+# HealthSage
 
 ## Introduction
-**MedRecom** is a platform designed to diagnose users and recommend appropriate medicines based on various factors such as age, symptoms, and more. It also tracks users' health over time, offering personalized health recommendations and monitoring.
+**HealthSage** is a platform designed to diagnose users and recommend appropriate medicines based on various factors such as age, symptoms, and more. It also tracks users' health over time, offering personalized health recommendations and monitoring.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -25,8 +25,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rohanlanjewar07/MedRecom.git
-   cd MedRecom
+   git clone https://github.com/Rohanlanjewar07/HealthSage.git
+   cd HealthSage
    ```
 2. Install the dependencies:
    ```bash
@@ -125,7 +125,7 @@ This project is licensed under the MIT License.
 #### Deployment Process:
 
 1. **Connect Repository**: 
-   - Log in to [Vercel](https://vercel.com/) and connect your GitHub/GitLab/Bitbucket repository containing the `MedRecom` project.
+   - Log in to [Vercel](https://vercel.com/) and connect your GitHub/GitLab/Bitbucket repository containing the `HealthSage` project.
    
 2. **Configure Settings**: 
    - You may need to configure some settings, such as environment variables, build commands, and output directory (for Next.js, this is usually automatic).

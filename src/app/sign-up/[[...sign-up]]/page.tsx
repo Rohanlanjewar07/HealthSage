@@ -10,7 +10,7 @@ export default function Page() {
         <div className="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden">
           <div className="flex flex-col gap-6">
             <h1 className="text-white font-bold text-4xl font-sans">
-              MedRecom
+              HealthSage
             </h1>
             <p className="text-white mt-1">
               Discover the best medicine recommendations tailored to your needs.

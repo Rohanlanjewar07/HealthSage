@@ -4,7 +4,7 @@ import Header from "@/components/header/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MedRecom",
+  title: "HealthSage",
   description: "Developed by Group 13",
 };
 

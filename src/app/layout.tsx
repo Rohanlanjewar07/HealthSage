@@ -7,7 +7,7 @@ import Image from "next/image";
 import { SignedOut, SignedIn, SignInButton, UserButton } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
-  title: "MedRecom",
+  title: "HealthSage",
   description: "Developed by Group 13",
 };
 
